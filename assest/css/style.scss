@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto Condensed",sans-serif ;
+}
+
+.container{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 1.7em;
+}
+.container .btn .btn-buy{
+    background-color: #E26D5A;
+    border:none;
+    padding: .90em 1.2em;
+    color: white;
+    font-size: .80em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
